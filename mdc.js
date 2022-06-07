@@ -6,3 +6,5 @@ function mdc(a, b) {
     }
     return a;
 }
+
+module.exports = { mdc } 

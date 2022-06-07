@@ -3,15 +3,16 @@
 //   Crie uma função que retorne a soma de todos
 // os múltiplos de 5 ou 7 abaixo de 1000.
 
-somar(1000)
-function somar(limite) {
-  let multiplosDe5 = 0;
-  let multiplisDe7 = 0;
-  for (i = 0; i <= limite; i++) {
-    if (i % 5 === 0) 
-        multiplosDe5 += i;
-    if (i % 7 === 0)
-        multiplisDe7 += i;
+var somar = (a, b) => {
+
+  var x = 0
+
+  for (let i = 0; i < 1000; i++) {
+      if(i % a == 0 || i % b == 0){
+          x += i            
+      }  
   }
-  console.log(multiplisDe7 + multiplosDe5)
+  return x
 }
+
+module.exports = { somar }

@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "jest": "^28.1.0"
+  },
+  "name": "ebac-js",
+  "description": "",
+  "version": "1.0.0",
+  "main": "indice.test.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcospoliceno/ebac-JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcospoliceno/ebac-JS/issues"
+  },
+  "homepage": "https://github.com/marcospoliceno/ebac-JS#readme"
+}
